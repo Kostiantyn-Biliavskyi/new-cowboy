@@ -1,0 +1,1012 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+body {
+    margin: 0;
+}
+
+#polotno {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: brown;
+    /* z-index: 2; */
+}
+
+#title {
+    width: 100%;
+    height: 100%;
+}
+
+#titleFotoText {
+    width: 40%;
+    height: 10%;
+    position: absolute;
+    z-index: 10;
+    top: 90%;
+    left: 30%;
+    font-size: 3vw;
+    text-align: center;
+    font-family: 'Rubik Wet Paint', 'Russo One', serif;
+    color: rgba(247, 244, 244, 0.5);
+    cursor: pointer;
+}
+
+#titleFoto {
+    width: 65%;
+    height: 100%;
+    position: absolute;
+    left: 17.5%;
+    z-index: 9;
+}
+
+#titleButton1 {
+    width: 17.5%;
+    height: 100%;
+    background-color: rgb(137, 10, 36);
+    position: absolute;
+    z-index: 9;
+    cursor: pointer;
+    font-family: 'Rubik Wet Paint', 'Russo One', serif;
+}
+
+#titleButton1:hover {
+    background-color: rgb(198, 12, 49);
+    text-shadow: -5px -5px rgb(97, 12, 28);
+    color: rgb(0, 0, 0);
+}
+
+#titleButton1Text {
+    width: 99%;
+    height: 17%;
+    position: absolute;
+    color: rgb(34, 32, 32);
+    top: 41.5%;
+    font-size: 3vw;
+    text-align: center;
+    margin: 0;
+}
+
+#titleButton1:hover>#titleButton1Text {
+    color: rgb(0, 0, 0);
+}
+
+#titleButton2 {
+    width: 17.5%;
+    height: 100%;
+    background-color: rgb(137, 10, 36);
+    position: absolute;
+    z-index: 9;
+    left: 82.5%;
+    cursor: pointer;
+    font-family: 'Rubik Wet Paint', 'Russo One', serif;
+    font-size: 3vw;
+    text-align: center;
+}
+
+#titleButton2:hover {
+    background-color: rgb(198, 12, 49);
+    text-shadow: 5px -5px rgb(97, 12, 28);
+    color: rgb(0, 0, 0);
+}
+
+#titleButton2Text {
+    width: 99%;
+    height: 17%;
+    position: absolute;
+    color: rgb(34, 32, 32);
+    top: 41.5%;
+    font-size: 3vw;
+    text-align: center;
+    margin: 0;
+}
+
+#titleButton2:hover>#titleButton2Text {
+    color: rgb(0, 0, 0);
+}
+
+#duelRegulations {
+    width: 100%;
+    height: 100%;
+    background-color: burlywood;
+    display: none;
+    position: absolute;
+    z-index: 9;
+    font-size: 3vw;
+}
+
+#duelRegulationsText {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    text-align: center;
+    font-family: 'Rubik Wet Paint', 'Russo One', serif;
+}
+
+#duelRegulationsExit {
+    width: 10%;
+    height: 5%;
+    background-color: rgb(171, 23, 53);
+    font-size: 1vw;
+    position: absolute;
+    top: 5%;
+    left: 45%;
+    text-align: center;
+    font-family: 'Rubik Wet Paint', 'Russo One', serif;
+    cursor: pointer;
+}
+
+#duelRegulationsExit:hover {
+    background-color: rgb(223, 14, 56);
+}
+
+#fon {
+    /* width: 700px; */
+    /* height: 600px; */
+    z-index: 3;
+    position: relative;
+    overflow: hidden;
+    -ms-overflow: hidden;
+}
+
+#fonshot {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 0, 0);
+    position: fixed;
+    opacity: 0.2;
+    display: none;
+    z-index: 7;
+}
+
+#menuSmall {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: none;
+    z-index: 7;
+    font-size: 450%;
+    overflow: hidden;
+    -ms-overflow: hidden;
+}
+
+@media screen and (max-width: 1800px) {
+    #menuSmall {
+        font-size: 400%;
+    }
+}
+
+@media screen and (max-height: 900px) {
+    #menuSmall {
+        font-size: 400%;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    #menuSmall {
+        font-size: 350%;
+    }
+}
+
+@media screen and (max-height: 800px) {
+    #menuSmall {
+        font-size: 350%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #menuSmall {
+        font-size: 300%;
+    }
+}
+
+@media screen and (max-height: 700px) {
+    #menuSmall {
+        font-size: 300%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #menuSmall {
+        font-size: 250%;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    #menuSmall {
+        font-size: 250%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #menuSmall {
+        font-size: 200%;
+    }
+}
+
+@media screen and (max-height: 400px) {
+    #menuSmall {
+        font-size: 200%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #menuSmall {
+        font-size: 150%;
+    }
+}
+
+@media screen and (max-height: 300px) {
+    #menuSmall {
+        font-size: 150%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    #menuSmall {
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-height: 200px) {
+    #menuSmall {
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-height: 100px) {
+    #menuSmall {
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #menuSmall {
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-height: 70px) {
+    #menuSmall {
+        font-size: 70%;
+    }
+}
+
+#levelNone {
+    width: 40%;
+    position: absolute;
+    z-index: 1;
+    background-color: black;
+    opacity: 0.6;
+    border-radius: 8px;
+    font-family: 'Rubik Wet Paint', 'Russo One', serif;
+    text-align: center;
+    color: rgb(251, 5, 5);
+    left: 30%;
+    top: 25%;
+    display: none;
+}
+
+#menuSmallFoto {
+    width: 100%;
+    height: 100%;
+}
+
+#messechLoss {
+    width: 40%;
+    position: absolute;
+    z-index: 1;
+    background-color: black;
+    opacity: 0.6;
+    border-radius: 8px;
+    font-family: 'Rubik Wet Paint', 'Russo One', serif;
+    text-align: center;
+    color: rgb(251, 5, 5);
+    left: 30%;
+    top: 10%;
+}
+
+#menuSmallButton1 {
+    width: 30%;
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(249, 5, 5);
+    opacity: 0.6;
+    border-radius: 8px;
+    font-family: 'Rubik Wet Paint', 'Russo One', serif;
+    text-align: center;
+    color: black;
+    left: 35%;
+    top: 35%;
+    cursor: pointer;
+}
+
+#menuSmallButton1:hover {
+    opacity: 1;
+}
+
+#menuSmallButton2 {
+    width: 30%;
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(231, 8, 8);
+    opacity: 0.6;
+    border-radius: 8px;
+    font-family: 'Rubik Wet Paint', 'Russo One', serif;
+    text-align: center;
+    color: black;
+    left: 35%;
+    top: 74%;
+    cursor: pointer;
+}
+
+#menuSmallButton2:hover {
+    opacity: 1;
+}
+
+#nextLevel {
+    width: 30%;
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(249, 5, 5);
+    opacity: 0.6;
+    border-radius: 8px;
+    font-family: 'Rubik Wet Paint', 'Russo One', serif;
+    text-align: center;
+    color: black;
+    top: 50%;
+    left: 35%;
+    cursor: pointer;
+}
+
+#nextLevel:hover {
+    opacity: 1;
+}
+
+#background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+/* ---------------------- BUTTON ----------------------------------- */
+#button {
+    width: 8%;
+    height: 6%;
+    background-color: rgb(108, 71, 23);
+    position: absolute;
+    left: 46%;
+    top: 10%;
+    border: 1px solid rgb(63, 30, 2);
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 5;
+}
+
+@media screen and (max-height: 150px) {
+    #button {
+        top: 50%;
+    }
+}
+
+#button1 {
+    width: 50%;
+    height: 130%;
+    background-color: rgb(152, 147, 147);
+    position: absolute;
+    left: 25%;
+    top: -15%;
+    border-radius: 40px;
+    border: 1px solid rgb(63, 30, 2);
+}
+
+#button2 {
+    width: 190%;
+    height: 65%;
+    background-color: rgb(152, 147, 147);
+    overflow: hidden;
+    position: absolute;
+    top: 16.5%;
+    left: -46%;
+}
+
+#circle1 {
+    width: 10%;
+    height: 30%;
+    background-color: rgb(108, 71, 23);
+    border-radius: 20px;
+    position: absolute;
+    top: -15%;
+    left: -5%;
+}
+
+#circle2 {
+    width: 10%;
+    height: 30%;
+    background-color: rgb(108, 71, 23);
+    border-radius: 20px;
+    position: absolute;
+    bottom: -15%;
+    left: -5%;
+}
+
+#circle3 {
+    width: 10%;
+    height: 30%;
+    background-color: rgb(108, 71, 23);
+    border-radius: 20px;
+    position: absolute;
+    top: -15%;
+    left: 95%;
+}
+
+#circle4 {
+    width: 10%;
+    height: 30%;
+    background-color: rgb(108, 71, 23);
+    border-radius: 20px;
+    position: absolute;
+    top: 85%;
+    left: 95%;
+}
+
+#textButton {
+    font-family: 'Rubik Wet Paint', 'Russo One', serif;
+    width: 80%;
+    height: 40%;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-size: 0.85vw;
+    text-align: center;
+    color: black;
+}
+
+/* ------------------------------------------------ */
+#cowboy {
+    width: 7%;
+    height: 30%;
+    z-index: 4;
+    position: absolute;
+    left: -20%;
+    top: 52%;
+}
+
+#head {
+    width: 30%;
+    height: 25%;
+    background-color: lightsalmon;
+    position: absolute;
+    left: 35%;
+    border-radius: 30px;
+    border-bottom: 10px solid black;
+    z-index: 4;
+}
+
+#eyeLeft {
+    width: 22%;
+    height: 7%;
+    background-color: black;
+    position: absolute;
+    top: 55%;
+    left: 18%;
+    border-radius: 3px;
+}
+
+#eyeright {
+    width: 22%;
+    height: 7%;
+    background-color: black;
+    position: absolute;
+    top: 55%;
+    right: 18%;
+    border-radius: 3px;
+}
+
+#nose {
+    width: 10%;
+    height: 23%;
+    background-color: rgb(249, 113, 63);
+    position: absolute;
+    top: 60%;
+    left: 45%;
+}
+
+#mouth {
+    width: 50%;
+    height: 5%;
+    background-color: brown;
+    position: absolute;
+    top: 88%;
+    left: 25%;
+    border-radius: 2px;
+}
+
+#hatDeath {
+    width: 5%;
+    height: 4%;
+    position: absolute;
+    top: 52%;
+    display: none;
+    /* z-index: -1; */
+}
+
+#hatDeath1 {
+    width: 45%;
+    height: 100%;
+    background-color: rgb(114, 85, 70);
+    border-radius: 7px;
+    position: absolute;
+    left: 27.5%;
+}
+
+#hatDeath1Text {
+    text-align: center;
+    font-size: 0.8vw;
+    margin-top: 10%;
+}
+
+#hatDeath2 {
+    width: 100%;
+    height: 20%;
+    background-color: rgb(114, 85, 70);
+    position: absolute;
+    top: 77%;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+#hat {
+    width: 110%;
+    height: 45%;
+    background-color: rgb(114, 85, 70);
+    border-radius: 7px;
+    position: absolute;
+    left: -5%;
+}
+
+#hat::after {
+    width: 230%;
+    height: 20%;
+    background-color: rgb(114, 85, 70);
+    position: absolute;
+    content: ' ';
+    top: 80%;
+    left: -65%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#hatText {
+    width: 90%;
+    height: 30%;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 5%;
+    font-size: 0.8vw;
+}
+
+#torso {
+    width: 52%;
+    height: 40%;
+    background-color: rgb(81, 35, 4);
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+#revolver1 {
+    width: 20%;
+    height: 35%;
+    background-color: cadetblue;
+    position: absolute;
+    top: 80%;
+    left: -20%;
+}
+
+#revolver1muzzle {
+    width: 50%;
+    height: 150%;
+    background-color: black;
+    position: absolute;
+    left: 25%;
+}
+
+#revolver2 {
+    width: 20%;
+    height: 35%;
+    background-color: cadetblue;
+    position: absolute;
+    top: 80%;
+    left: 100%;
+}
+
+#revolver2muzzle {
+    width: 50%;
+    height: 150%;
+    background-color: black;
+    position: absolute;
+    left: 25%;
+}
+
+#belt {
+    width: 100%;
+    height: 20%;
+    background-color: rgb(42, 42, 43);
+    position: absolute;
+    top: 80%;
+}
+
+#leftHand {
+    width: 17%;
+    height: 40%;
+    position: absolute;
+    top: 25%;
+    left: 9%;
+    z-index: 4;
+}
+
+#leftHand1 {
+    width: 105%;
+    height: 60%;
+    background-color: rgb(81, 35, 4);
+    position: absolute;
+    border-radius: 5px;
+    transform: rotate(30deg);
+    z-index: 3;
+    border-bottom-right-radius: 10px;
+}
+
+#leftHand2 {
+    width: 93%;
+    height: 60%;
+    background-color: lightsalmon;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    transform: rotate(-45deg);
+    border-radius: 5px;
+    border-top-left-radius: 10px;
+}
+
+#rightHand {
+    width: 17%;
+    height: 40%;
+    position: absolute;
+    top: 25%;
+    left: 75%;
+    z-index: 4;
+}
+
+#rightHand1 {
+    width: 105%;
+    height: 60%;
+    background-color: rgb(81, 35, 4);
+    position: absolute;
+    border-radius: 5px;
+    transform: rotate(-30deg);
+    z-index: 3;
+    border-bottom-left-radius: 10px;
+}
+
+#rightHand2 {
+    width: 93%;
+    height: 60%;
+    background-color: lightsalmon;
+    position: absolute;
+    top: 35%;
+    left: -35%;
+    transform: rotate(45deg);
+    border-radius: 5px;
+}
+
+#leftLeg {
+    width: 20%;
+    height: 35%;
+    background-color: darkolivegreen;
+    position: absolute;
+    top: 65%;
+    left: 25%;
+}
+
+#rightLeg {
+    width: 20%;
+    height: 35%;
+    background-color: darkolivegreen;
+    position: absolute;
+    top: 65%;
+    left: 55%;
+}
+
+#leftLeg ::after {
+    width: 130%;
+    height: 10%;
+    background-color: black;
+    position: absolute;
+    content: ' ';
+    top: 90%;
+    left: 0;
+    border-top-right-radius: 15px;
+}
+
+#rightLeg::after {
+    width: 130%;
+    height: 10%;
+    background-color: black;
+    position: absolute;
+    content: ' ';
+    top: 90%;
+    left: 0;
+    border-top-right-radius: 15px;
+}
+
+/* ------------- НОВЫЕ  руки----------------- */
+#revolverShotRight {
+    width: 120%;
+    height: 20%;
+    background-color: lightsalmon;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 5;
+    border-radius: 7px;
+    display: none;
+}
+
+#revolverShotRight1 {
+    width: 70%;
+    height: 100%;
+    background-color: cadetblue;
+    border-radius: 5px;
+    position: absolute;
+    top: -20%;
+    left: 20%;
+    z-index: 3;
+}
+
+#revolverShotRight2 {
+    width: 50%;
+    height: 50%;
+    background-color: black;
+    position: absolute;
+    border-radius: 10px;
+    top: -20%;
+    left: 25%;
+    border-top: 5px solid rgb(124, 123, 123);
+}
+
+#revolverShotRight3 {
+    width: 60%;
+    height: 20%;
+    background-color: cadetblue;
+    position: absolute;
+    border-radius: 1px;
+    top: 100%;
+    left: 25%;
+}
+
+#shot_5 {
+    width: 1000%;
+    height: 700%;
+    position: absolute;
+    top: -300%;
+    left: -450%;
+    display: none;
+}
+
+/* ------------------- НОВЫЕ  руки ---------- */
+/* ------------------- death -------------------- */
+#deathCowboy {
+    width: 5%;
+    height: 4%;
+    background-color: darkolivegreen;
+    position: absolute;
+    top: 75%;
+    left: 20%;
+    border-radius: 30px;
+    border: 1px solid rgb(52, 65, 29);
+    border-top: 10px solid rgb(81, 35, 4);
+    z-index: 3;
+    opacity: 0;
+}
+
+#deathCowboyleftLeg {
+    width: 25%;
+    height: 110%;
+    background-color: darkolivegreen;
+    position: absolute;
+    left: -11%;
+    top: -70%;
+    transform: rotate(140deg);
+    border-right: 1px solid rgb(52, 65, 29);
+    border-left: 1px solid rgb(52, 65, 29);
+}
+
+#deathCowboyrightLeg {
+    width: 25%;
+    height: 110%;
+    background-color: darkolivegreen;
+    position: absolute;
+    top: -70%;
+    right: -11%;
+    transform: rotate(-140deg);
+    border-right: 1px solid rgb(52, 65, 29);
+    border-left: 1px solid rgb(52, 65, 29);
+}
+
+#deathCowboyleftLeg::before {
+    width: 90%;
+    height: 90%;
+    background-color: black;
+    position: absolute;
+    content: ' ';
+    top: 73%;
+    left: -18%;
+    border-radius: 10px;
+    transform: rotate(-90deg);
+    border-top-right-radius: 20px;
+}
+
+#deathCowboyrightLeg::before {
+    width: 90%;
+    height: 90%;
+    background-color: black;
+    position: absolute;
+    content: ' ';
+    top: 73%;
+    right: -18%;
+    border-radius: 10px;
+    transform: rotate(90deg);
+    border-top-left-radius: 20px;
+}
+
+#deathCowboyleftHand {
+    width: 25%;
+    height: 60%;
+    background-color: lightsalmon;
+    border-radius: 10px;
+    position: absolute;
+    top: 25%;
+    left: -20%;
+    z-index: 0;
+}
+
+#deathCowboyrightHand {
+    width: 25%;
+    height: 60%;
+    background-color: lightsalmon;
+    border-radius: 10px;
+    position: absolute;
+    top: 25%;
+    right: -20%;
+}
+
+#deathCowboy::before {
+    width: 40%;
+    height: 25%;
+    background-color: lightsalmon;
+    position: absolute;
+    content: '';
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    top: -50%;
+    left: 30%;
+    z-index: 5;
+}
+
+#deathHat {
+    width: 65%;
+    height: 60%;
+    background-color: rgb(114, 85, 70);
+    position: absolute;
+    top: -83%;
+    left: 17.5%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top: 1px solid black;
+}
+
+.CowboyBlood {
+    width: 100%;
+    height: 0;
+    background-color: brown;
+    position: absolute;
+    border-radius: 30px;
+    top: 100%;
+    left: 0%;
+    opacity: 0;
+    transition: 4s;
+}
+
+.active {
+    opacity: 1;
+    height: 40%;
+}
+
+#deathCowboyleftHand::before {
+    width: 170%;
+    height: 20%;
+    background-color: brown;
+    position: absolute;
+    content: '';
+    left: 200%;
+    top: -60%;
+    border-radius: 30px;
+}
+
+#skil {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+#bacs {
+    font-size: 3vw;
+    position: absolute;
+    z-index: 12;
+    font-weight: bold;
+    color: white;
+}
+
+#total {
+    font-size: 3vw;
+    font-weight: 900;
+    position: absolute;
+    z-index: 12;
+    left: 50px;
+    color: white;
+}
+
+/* №№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№ */
+#cowboyFotoshop {
+    position: absolute;
+    width: 6.8%;
+    height: 30%;
+    overflow: hidden;
+    top: 54%;
+    left: 10%;
+    z-index: 3;
+    opacity: 0;
+}
+
+#cowboyFotoshopShot {
+    position: absolute;
+    width: 35%;
+    height: 20%;
+    top: 37%;
+    left: 57%;
+    display: none;
+}
+
+#cowboyFotoshopGo {
+    width: 815%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+#cowboyFotoshopGo1 {
+    position: absolute;
+    width: 815%;
+    height: 100%;
+    top: 0;
+    background-color: blue;
+    display: none;
+}
+
+#fonSwitch {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: none;
+}
+
+#fonSwitch1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: none;
+}
